@@ -47,7 +47,7 @@ public interface UserService {
     Page<User> listUsersByNameLike(String name, Pageable pageable);
     /**
      * 根据用户名集合,查询用户详细信息列表
-     * @param username
+     * @param usernames
      * @return
      */
     List<User> listUsersByUsernames(Collection<String> usernames);

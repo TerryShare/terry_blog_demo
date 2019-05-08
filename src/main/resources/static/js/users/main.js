@@ -18,7 +18,7 @@ $(function() {
              url: "/users", 
              contentType : 'application/json',
              data:{
-                 "async":true, 
+                 "async":true,
                  "pageIndex":pageIndex,
                  "pageSize":pageSize,
                  "name":$("#searchName").val()
